@@ -1,0 +1,5 @@
+name: 'Pull Request Check Files'
+description: 'Check modified paths in pull request'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
